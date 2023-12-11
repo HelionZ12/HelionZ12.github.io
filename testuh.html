@@ -274,7 +274,7 @@ section {
     </div>
 
 
-    <script> //basically para lang sa navigation buttons, ung < at >
+    <script>
     let currentContent = 1;
 
     function cycleContent() {
@@ -296,13 +296,13 @@ section {
         currentContentElement.classList.add('hidden');
         setTimeout(() => {
             currentContentElement.classList.remove('visible');
-        }, 500); // Adjust this timing to match your transition duration
+        }, 500);
         currentContent = (currentContent - 2 + 3) % 3 + 1;
         let nextContentElement = document.getElementById(`content${currentContent}`);
         nextContentElement.classList.remove('hidden');
         setTimeout(() => {
             nextContentElement.classList.add('visible');
-        }, 50); // Adjust this timing to match your transition duration
+        }, 50);
     }
 </script>
 
