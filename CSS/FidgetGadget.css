@@ -177,7 +177,9 @@ section {
     margin: auto;
 	margin-top: 80px;
 }
-
+#content h2, p{
+	color: black;
+}
 
 #content div {
   height: 300px;
