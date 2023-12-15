@@ -155,11 +155,9 @@ section {
 
     text-align: center;
 	
-	max-height: 1000px;
+	max-height: auto;
 	
     width: 90%;
-
-    overflow: hidden;
 
     margin: auto;
 		
